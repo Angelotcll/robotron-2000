@@ -15,7 +15,15 @@
 <body>
     <main>
         <section class="robotron">
-            <img class="robo" src="img/robotron.png" alt="Robotron" id="robotron">
+            <section class="botoes">
+                <button class="alterar" alterar onclick="trocaImagem('Azul')">Robotron Azul</button>
+                <button class="alterar" alterar onclick="trocaImagem('Amarelo')">Robotron Amarelo</button>
+                <button class="alterar" alterar onclick="trocaImagem('Branco')">Robotron Branco</button>
+                <button class="alterar" alterar onclick="trocaImagem('Preto')">Robotron Preto</button>
+                <button class="alterar" alterar onclick="trocaImagem('Rosa')">Robotron Rosa</button>
+                <button class="alterar" alterar onclick="trocaImagem('Vermelho')">Robotron Vermelho</button>
+            </section>
+            <img class="robo" src="./img/Robotron 2000 - Amarelo.png" alt="Robotron">
             <figcaption class="titulo">ROBOTRON <br>2000</figcaption>
         </section>
 
@@ -51,7 +59,6 @@
                 <div class="box montador-conteudo">
                     <div class="peca">
                         <label for="" class="peca-titulo">Braços</label>
-                        <img class = "icone" src="./img/braco.png" alt="Braços">
                         <div class="controle">
                             <buttom class="controle-ajuste" data-controle = "-" data-peca = "bracos" >-</buttom>
                             <input type="text" class="controle-contador" value="00" data-contador>
@@ -61,17 +68,15 @@
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Blindagem</label>
-                        <img class = "icone" src="./img/blindagem.png" alt="Braços">
                         <div class="controle">
-                            <buttom class="controle-ajuste" data-controle = "-" data-peca = "blidagem" >-</buttom>
+                            <buttom class="controle-ajuste" data-controle = "-" data-peca = "blindagem" >-</buttom>
                             <input type="text" class="controle-contador" value="00" data-contador>
-                            <buttom class="controle-ajuste" data-controle = "+" data-peca = "blidagem" >+</buttom>
+                            <buttom class="controle-ajuste" data-controle = "+" data-peca = "blindagem" >+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Núcleos</label>
-                        <img class = "icone" src="./img/nucleo.png" alt="Braços">
                         <div class="controle">
                             <buttom class="controle-ajuste" data-controle = "-" data-peca = "nucleos">-</buttom>
                             <input type="text" class="controle-contador" value="00" data-contador>
@@ -81,7 +86,6 @@
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Pernas</label>
-                        <img class = "icone" src="./img/perna.png" alt="Braços">
                         <div class="controle">
                             <buttom class="controle-ajuste" data-controle = "-" data-peca = "pernas">-</buttom>
                             <input type="text" class="controle-contador" value="00" data-contador>
@@ -91,7 +95,6 @@
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Foguetes</label>
-                        <img class = "icone" src="./img/foguete.png" alt="Braços">
                         <div class="controle">
                             <buttom class="controle-ajuste" data-controle = "-" data-peca = "foguetes">-</buttom>
                             <input type="text" class="controle-contador" value="00" data-contador>

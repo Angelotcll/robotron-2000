@@ -24,21 +24,22 @@ body, input {
 main {
     width: 83vw;
     height: 83vh;
-    margin: 10vh 8vw 10vh 12vw;
+    /* margin: 10vh 8vw 10vh 12vw; */
     display: flex;
     gap: 1vw;
 }
 
 .robotron {
     background: url(../img/estrutura.png) no-repeat;
+    width: 40%;
     background-position: center center;
     margin: 0;
-    flex-basis: 40%;
-    position: relative;
+     flex-basis: 40%; 
+     position: relative;
 }
 
 .robo {
-    height: 110%;
+    height: 100%;
     z-index: 1;
     position: absolute;
     left: -20%;
@@ -214,6 +215,19 @@ main {
     order: 1;
     flex-basis: 35%;
     margin: 10px 0 0;
+}
+
+.alterar {
+    margin: 2px;
+    width: 200px;
+    z-index: 2;
+}
+
+.botoes {
+   position: relative;
+   right: 5%;
+   bottom: 10%;
+   display: flex;
 }
 
 @media screen and (max-width: 1600px) {
